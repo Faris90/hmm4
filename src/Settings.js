@@ -38,8 +38,8 @@ const value = Object.seal({
     minionEnableERTPControls: false,
     minionEnableQBasedControl: true,
 
-    pelletMinSize: 10,
-    pelletMaxSize: 20,
+    pelletMinSize: 25,
+    pelletMaxSize: 32,
     pelletGrowTicks: 25 * 60,
     pelletCount: 1000,
 
@@ -52,8 +52,8 @@ const value = Object.seal({
     virusPushBoost: 120,
     virusMonotonePops: false,
 
-    ejectedSize: 43,
-    ejectingLoss: 48,
+    ejectedSize: 48,
+    ejectingLoss: 43,
     ejectDispersion: 0.3,
     ejectedCellBoost: 780,
 
@@ -76,7 +76,7 @@ const value = Object.seal({
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
-    playerMaxCells: 16,
+    playerMaxCells: 32,
 
     playerMoveMult: 1,
     playerSplitBoost: 780,
