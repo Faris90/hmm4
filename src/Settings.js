@@ -11,7 +11,7 @@ const value = Object.seal({
     listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "Agaruto FFA",
+    serverName: "Agaruto Instant Merge",
     serverGamemode: "FFA",
     serverChatEnabled: false,
 
@@ -72,7 +72,7 @@ const value = Object.seal({
     playerMaxNameLength: 900000000000000000000000000000000000000000000000,
     
     playerMinSize: 32,
-    playerSpawnSize: 32,
+    playerSpawnSize: 100,
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
@@ -84,7 +84,7 @@ const value = Object.seal({
     playerNoMergeDelay: 15,
     /** @type {"old" | "new"} */
     playerMergeVersion: "old",
-    playerMergeTime: 5,
+    playerMergeTime: 0,
     playerMergeTimeIncrease: 0.02,
     playerDecayMult: 0.001
 });
