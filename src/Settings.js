@@ -11,9 +11,9 @@ const value = Object.seal({
     listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "An unnamed server",
+    serverName: "Agaruto FFA",
     serverGamemode: "FFA",
-    serverChatEnabled: true,
+    serverChatEnabled: false,
 
     worldMapX: 0,
     worldMapY: 0,
@@ -69,7 +69,7 @@ const value = Object.seal({
     playerRoamViewScale: 0.4,
     playerViewScaleMult: 1,
     playerMinViewScale: 0.01,
-    playerMaxNameLength: 16,
+    playerMaxNameLength: Infinity,
     
     playerMinSize: 32,
     playerSpawnSize: 32,
